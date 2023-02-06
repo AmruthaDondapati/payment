@@ -1,4 +1,7 @@
 @Library('robot-shared-library') _
 
-nodejs("payment")
+env.COMPONENT="payment"
+env.APP="python"
+
+python()
 
