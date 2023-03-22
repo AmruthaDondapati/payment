@@ -3,5 +3,6 @@
 env.COMPONENT="payment"
 env.APP="python"
 
-python()
+// python()
+docker()
 
